@@ -9,15 +9,75 @@
     <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./lib/bootstrap-validator/css/bootstrapValidator.min.css">
     <link rel="stylesheet" href="./lib/nprogress/nprogress.css">
-    <link rel="stylesheet/less" href="./css/login.less">
-    <script src="./lib/less/index.js"></script>
+    <link rel="stylesheet/less" href="./less/index.less">
+    <script src="./lib/less/less.js"></script>
 </head>
 
+<body>
 
+    <div id="side-left">
+        <div class="left-head">
+            <a href="#">
+                <span>ITCAST</span>
+            </a>
+        </div>
+        <div class="left-body">
+            <i class="icon-icon"></i>
+            <span>超级管理员</span>
+            <ul class="manage-list">
+                <li class="active">
+                    <a href="javascript:;">
+                        <i class="glyphicon glyphicon-user"></i>用户管理</a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <i class="glyphicon glyphicon-menu-hamburger"></i>分类管理
+                        <ol>
+                            <li>
+                                <a href="javascript:;">一级分类</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">二级分类</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">三级分类</a>
+                            </li>
+                        </ol>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <i class="glyphicon glyphicon-object-align-right"></i>商品管理</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="side-right">
+        <div class="top">
+            <i class="glyphicon glyphicon-fire"></i>
+            <i class="glyphicon glyphicon-log-out "></i>
+        </div>
+        <div class="side-content">
+            <ol class="breadcrumb">
+                <li>
+                    <a href="#">管理系统</a>
+                </li>
+                <li>
+                    用户管理
+                </li>
+            </ol>
+            <div id="main-right" class="pull-left" style="width: 400px;height:300px;"></div>
+            <div id="main-left" class="pull-right" style="width:400px;height:300px;"></div>
+        </div>
+    </div>
+
+</body>
 
 </html>
 <script src="./lib/jquery/jquery.min.js"></script>
 <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
 <script src="./lib/bootstrap-validator/js/bootstrapValidator.min.js"></script>
 <script src="./lib/nprogress/nprogress.js"></script>
+<script src="./lib/echarts/echarts.min.js"></script>
 <script src="./js/index.js"></script>

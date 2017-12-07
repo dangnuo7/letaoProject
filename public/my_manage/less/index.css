@@ -66,3 +66,116 @@ a:active {
   min-width: 320px;
   margin: 0 auto;
 }
+html,
+body {
+  height: 100%;
+}
+#side-left {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+}
+#side-left .left-head {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#side-left .left-head > a {
+  display: block;
+  height: 50px;
+  width: 180px;
+  background-color: #02CCE2;
+  text-align: center;
+  line-height: 50px;
+}
+#side-left .left-head > a > span {
+  font-size: 20px;
+  color: #fff;
+}
+#side-left .left-body {
+  text-align: center;
+  height: 100%;
+  width: 180px;
+  padding-top: 80px;
+  background-color: #03B8CC;
+}
+#side-left .left-body .icon-icon {
+  display: block;
+  margin-left: 50px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: url('../images/default.png') no-repeat;
+  background-size: 80px 80px;
+  margin-bottom: 5px;
+}
+#side-left .left-body > span {
+  color: #fff;
+  font-size: 14px;
+}
+#side-left .left-body .manage-list {
+  margin-top: 20px;
+}
+#side-left .left-body .manage-list > li {
+  border: 4px solid transparent;
+  line-height: 40px;
+}
+#side-left .left-body .manage-list > li > a {
+  font-size: 14px;
+  color: #fff;
+}
+#side-left .left-body .manage-list > li > a > i {
+  margin-right: 5px;
+}
+#side-left .left-body .manage-list > li.active {
+  border-left: 4px solid hotpink;
+  background-color: #02CCE2;
+}
+#side-left .left-body .manage-list > li.active > a {
+  color: hotpink;
+}
+#side-left .left-body .manage-list > li:nth-child(2) > ol > li {
+  line-height: 25px;
+}
+#side-left .left-body .manage-list > li:nth-child(2) > ol > li > a {
+  color: #fff;
+  font-size: 12px;
+}
+#side-right {
+  width: 100%;
+  height: 100%;
+  padding-left: 180px;
+}
+#side-right .top {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 18px;
+  padding: 12px 20px 0px 20px;
+  color: #fff;
+  background-color: darkcyan;
+  height: 50px;
+  width: 82.5%;
+}
+#side-right .top .glyphicon-fire {
+  position: absolute;
+  left: 20px;
+  top: 12px;
+}
+#side-right .top .glyphicon-log-out {
+  position: absolute;
+  right: 20px;
+  top: 12px;
+}
+#side-right .side-content {
+  padding-top: 50px;
+  height: 100%;
+}
+#side-right .side-content .breadcrumb {
+  background-color: #fff;
+  border-bottom: 1px solid #CCC;
+}
+#side-right .side-content .breadcrumb > li:first-child > a {
+  color: skyblue;
+}
