@@ -75,16 +75,19 @@ body {
   left: 0;
   top: 0;
   height: 100%;
+  width: 180px;
+  background-color: #03B8CC ;
 }
 #side-left .left-head {
   position: absolute;
   left: 0;
   top: 0;
+  width: 100%;
 }
 #side-left .left-head > a {
   display: block;
   height: 50px;
-  width: 180px;
+  width: 100%;
   background-color: #02CCE2;
   text-align: center;
   line-height: 50px;
@@ -94,9 +97,8 @@ body {
   color: #fff;
 }
 #side-left .left-body {
+  width: 100%;
   text-align: center;
-  height: 100%;
-  width: 180px;
   padding-top: 80px;
   background-color: #03B8CC;
 }
@@ -146,36 +148,34 @@ body {
   width: 100%;
   height: 100%;
   padding-left: 180px;
+  background-color: darkgray;
 }
 #side-right .top {
-  position: absolute;
-  right: 0;
-  top: 0;
   font-size: 18px;
   padding: 12px 20px 0px 20px;
   color: #fff;
   background-color: darkcyan;
   height: 50px;
-  width: 82.5%;
+  width: 100%;
 }
 #side-right .top .glyphicon-fire {
-  position: absolute;
-  left: 20px;
-  top: 12px;
+  float: left;
 }
 #side-right .top .glyphicon-log-out {
-  position: absolute;
-  right: 20px;
-  top: 12px;
-}
-#side-right .side-content {
-  padding-top: 50px;
-  height: 100%;
+  float: right;
 }
 #side-right .side-content .breadcrumb {
   background-color: #fff;
   border-bottom: 1px solid #CCC;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 #side-right .side-content .breadcrumb > li:first-child > a {
   color: skyblue;
+}
+#side-right .side-content #main-right {
+  margin-left: 100px;
+}
+#side-right .side-content #main-left {
+  margin-right: 100px;
 }
